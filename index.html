@@ -1,6 +1,5 @@
 <!doctype html>
 <html lang="fr">
-
 <head>
     <meta charset="utf-8">
     <title> Mon CV Web</title>
@@ -8,38 +7,44 @@
     <meta name="author" content="Exemple Javascript">
     <link rel="stylesheet" href="css/style.css">
 </head>
-
 <body>
     <header>
         <nav>
-            <a class="prenom">
-                <p>Sacha Tymoshenko</p>
-            </a>
-            <div class="navbar">
-                <ul>
-                    <li>Presentation</li>
-                    <li>Compétences</li>
-                    <li>Diplômes</li>
-                    <li>Expérience</li>
-                </ul>
+            <div class="prenom">
+                <h2>Sacha Tymoshenko</h2>
             </div>
             <div class="contact">
                 <img src="images/github.png" alt="Logo GitHub">
                 <img src="images/linkedin.png" alt="Logo LinkedIn">
-                <img src="images/mail.png" alt="Logo Mail"
+                <img src="images/mail.png" alt="Logo Mail">
+            </div>
+            <div class="navbar">
+                <ul>                
+                    <li><a href="#experience">Expérience</a></li>
+                    <li><a href="#diplomes">Diplômes</a></li>
+                    <li><a href="#competences">Compétences</a></li>
+                    <li><a href="#presentation">Presentation</a></li>   
+                </ul>
             </div>
         </nav>
     </header>
-    <section class="presentation">
+    <section class="presentation" id="presentation">
         <div class="photo_presentation">
-            <img src="images/photo_profil.png" alt="Photo de présentation">
+            <img src="images/sacha.png" alt="Photo de présentation">
         </div>
         <div class="texte_presentation">
-            <h2> Je m'appelle Sacha, etc..</h2>
-            <p>presentation</p>
+            <h2> Je m'appelle Oleksandr, etc..</h2>
+            <p> Oleksandr Tymoshenko, (Sacha pour les intimes), jeune développeur Web Ukrainien passionné par le développement.
+                Je suis arrivé en France a l'âge de 9 ans donc j'ai une parfaite maîtrise du français, mais aussi l'Ukrainien et le Russe natif.
+                Ayant fait une Licence en Anglais-Russe, j'ai une bonne maîtrise de l'Anglais et des notions d'Espagnol.
+                Ma maîtrise des langues cependant n'est pas suffisante pour moi,
+                c'est une des raisons pour lesquelles je me suis dirigé vers les languages informatiques.
+                Etant plus concrets et plus logiques,
+                les languages de developpeur me permetteront de comprendre les programmes et les applications en plus de personnes de differentes provenances.
+            </p>
         </div>
     </section>
-    <section class="competences">
+    <section class="competences" id="competences">
         <div class="titre_competences">
             <h2> Mes Compétences</h2>
         </div>
@@ -49,12 +54,12 @@
             <img src="images/js.png" alt="Logo JavaScript">
         </div>
         <div class="langues_competences">
-            <h2>Mes Langues</h2>
+            <h3>Mes Langues</h3>
             <div class="langues_images_competences">
                 <img src="images/anglais.png" alt="Drapeau Anglais">
-                <img src="images/francais.png" alt="Drapeau Français">
-                <img src="images/russe.png" alt="Drapeau Russe">
-                <img src="images/ukrainien.png" alt="Drapeau Ukrainien">
+                <img src="images/france.png" alt="Drapeau Français">
+                <img src="images/russie.png" alt="Drapeau Russe">
+                <img src="images/ukraine.png" alt="Drapeau Ukrainien">
             </div>
             <div class="titres_langues">
                 <p>Anglais</p>
@@ -64,7 +69,7 @@
             </div>
         </div>
     </section>
-    <section class="diplomes">
+    <section class="diplomes" id="diplomes">
         <div class="mes_diplomes">
             <h2>Mes Diplômes</h2>
             <div class="liste_diplome">
@@ -93,7 +98,7 @@
             </div>
         </div>
     </section>
-    <section class="experiences">
+    <section class="experiences" id="experiences">
         <div class="mes_experiences">
             <h2>Mes expériences</h2>
             <div class="liste_experiences">
@@ -135,7 +140,7 @@
             </div>
         </div>
     </section>
-    <section class="centre_interet">
+    <section class="centre_interet" id="centre_interet">
         <div class="titre_centre_interet">
             <h2>Mes centres d'interêt</h2>
         </div>
