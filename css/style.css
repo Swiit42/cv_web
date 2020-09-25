@@ -2,33 +2,65 @@
     margin: 0;
     padding: 0;
 }
-body {;
+body {
+    color:black;
+    background-color:gainsboro;
+    background-image:url("../images/fond1.png");
+    }   
 }
 
-header {
-     width: 100%;
-     height: 130px;
-     background-color: blue;
-     margin-bottom: 20px;
-}
 h2 {
     margin-bottom: 20px;
 }
 h3{
     margin-top: 20px;
 }
+/********* Header *********/
+header {
+     width: 100%;
+     height: 130px;
+     background-color: blue;
+     margin-bottom: 20px;
+}
+
 nav {
     margin-bottom: 20px;;
     
 }
 .prenom {
     padding-top: 40px;
-    padding-left: 20px;
+    padding-left: 80px;
+    float:left;
 }
 .prenom h2{
     width: 50%;
 }
+
+.contact {
+    float: right;
+    width: 20%;
+    padding-top: 40px;
+    
+}
+.contact img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
+
 /********** Navbar **********/
+.navbar{
+
+}.contact {
+    float: right;
+    width: 20%;
+    
+}
+.contact img {
+    border-radius: 50%;
+    width: 50px;
+    height: 50px;
+}
 .navbar ul{
     list-style-type: none;
     width: 100%;
@@ -49,28 +81,20 @@ li a {
     color: black;
 
 }
-.contact {
-    float: right;
-    width: 20%;
-    
-}
-.contact img {
-    border-radius: 50%;
-    width: 50px;
-    height: 50px;
-}
 /********* Presentation ********/
 
 .presentation {
     width: 80%;
     padding: 30px;  
-    margin-top: 20px;
+    margin-top: 50px;
     margin-left: 20px;
     margin-left: 150px;
     text-align: justify;
     border: 2px solid darkslategray;
+    background-color: #54442B;
 }
-.texte_presentation{
+.presentation .texte_presentation{
+    
 
 }
 .photo_presentation img{
@@ -78,6 +102,8 @@ li a {
     width: 160px;
     height: 160px;
 }
+
+/********** Compétences **********/
 .competences {
     width: 80%;
     padding: 30px;  
@@ -87,12 +113,24 @@ li a {
     text-align: justify;
     border: 2px solid darkslategray;
 }
+.mes_competences {
+
+    float: center;
+}
 .mes_competences img {
 
     width: 120px;
     height: 120px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+    margin-left: 100px;
+    margin-right: 100px;
 }
+/********* Langues *********/
 
+.langues_images_competences{
+    padding-left: 20px;
+}
 .langues_images_competences img{
     margin-top: 40px;
     margin-bottom: 40px;
@@ -102,6 +140,10 @@ li a {
     width: 80px;
     height: 80px;
 }
+.titres_langues {
+    
+}
+/******** Diplômes *********/
 .diplomes {
     width: 80%;
     padding: 30px;  
@@ -111,6 +153,8 @@ li a {
     text-align: justify;
     border: 2px solid darkslategray;
 }
+
+/******** Expériences ********/
 .experiences{
     width: 80%;
     padding: 30px;  
@@ -120,6 +164,7 @@ li a {
     text-align: justify;
     border: 2px solid darkslategray;
 }
+/********* Centres d'interêts *********/
 .centre_interet {
     width: 80%;
     padding: 30px;  
