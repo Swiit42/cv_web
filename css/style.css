@@ -6,6 +6,7 @@ body {
     color:black;
     background-color:gainsboro;
     background-image:url("../images/fond1.png");
+    background-size: contain;
     }   
 }
 
