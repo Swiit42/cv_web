@@ -5,7 +5,7 @@
 body {
     color:black;
     background-color:gainsboro;
-    background-image:url("../images/fond1.png");
+/*     background-image:url("../images/fond1.png"); */
     background-size: contain;
     }   
 }
@@ -20,7 +20,7 @@ h3{
 header {
      width: 100%;
      height: 130px;
-     background-color: blue;
+     background-color: #1f618d   ;
      margin-bottom: 20px;
 }
 
@@ -52,7 +52,8 @@ nav {
 /********** Navbar **********/
 .navbar{
 
-}.contact {
+}
+.contact {
     float: right;
     width: 20%;
     
@@ -68,7 +69,7 @@ nav {
     padding-top: 0px;
     height: 40px;
     overflow: hidden;
-    background-color: yellowgreen;
+    background-color:   #85c1e9  ;
 }
 li {
     float: right;
@@ -85,34 +86,35 @@ li a {
 /********* Presentation ********/
 
 .presentation {
-    width: 80%;
-    padding: 30px;  
-    margin-top: 50px;
-    margin-left: 20px;
-    margin-left: 150px;
-    text-align: justify;
+    width: 90%;
+    padding: 50px 30px;  
+    margin: 10px 60px;
     border: 2px solid darkslategray;
-    background-color: #54442B;
+    background-color: #f4ecf7;
+    display: inline-block;
 }
-.presentation .texte_presentation{
+.texte_presentation{
+    margin-left: 400px;
+
     
 
 }
 .photo_presentation img{
+    padding: 20px;
     border-radius: 40%;
-    width: 160px;
-    height: 160px;
+    width: 270px;
+    height: 270px;
+    float: left;
 }
 
 /********** Compétences **********/
 .competences {
     width: 80%;
     padding: 30px;  
-    margin-top: 20px;
-    margin-left: 20px;
-    margin-left: 150px;
+    margin: 30px 150px;
     text-align: justify;
     border: 2px solid darkslategray;
+    background-color: #f4ecf7  ;
 }
 .mes_competences {
 
@@ -130,6 +132,7 @@ li a {
 /********* Langues *********/
 
 .langues_images_competences{
+    width: 100%;
     padding-left: 20px;
 }
 .langues_images_competences img{
@@ -148,30 +151,43 @@ li a {
 .diplomes {
     width: 80%;
     padding: 30px;  
-    margin-top: 20px;
-    margin-left: 20px;
-    margin-left: 150px;
+    margin: 30px 150px;
     text-align: justify;
     border: 2px solid darkslategray;
+    background-color:  #f4ecf7 ;
 }
 
 /******** Expériences ********/
 .experiences{
     width: 80%;
     padding: 30px;  
-    margin-top: 20px;
-    margin-left: 20px;
-    margin-left: 150px;
+    margin: 30px 150px;
     text-align: justify;
     border: 2px solid darkslategray;
+    background-color: #f4ecf7  ;  
 }
 /********* Centres d'interêts *********/
 .centre_interet {
     width: 80%;
     padding: 30px;  
-    margin-top: 20px;
-    margin-left: 20px;
-    margin-left: 150px;
+    margin: 30px 150px;
     text-align: justify;
     border: 2px solid darkslategray;
+    background-color:  #f4ecf7 ;
 }
+
+/********** Footer ***********/
+
+footer{
+    width: 100%;
+    height: 200px;
+    background-color:  #1c2833 ;
+}
+
+@media screen and (max-width: 767px){}
+
+@media screen and (min-width: 768px) and (max-width: 992px){}
+
+@media screen and (min-width: 992px) and (max-width: 1200px){}
+
+@media screen and (min-width: 1200px){}
