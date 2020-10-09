@@ -88,13 +88,18 @@ li a {
 .presentation {
     width: 90%;
     padding: 50px 30px;  
-    margin: 10px 60px;
+    margin: 10px 30px;
     border: 2px solid darkslategray;
     background-color: #f4ecf7;
     display: inline-block;
 }
+.texte_presentation h2 {
+    margin-bottom: 50px;
+}
 .texte_presentation{
     margin-left: 400px;
+    text-align: justify;
+    padding-right: 50px   ;
 
     
 
@@ -111,7 +116,7 @@ li a {
 .competences {
     width: 80%;
     padding: 30px;  
-    margin: 30px 150px;
+    margin: 10px 102px;
     text-align: justify;
     border: 2px solid darkslategray;
     background-color: #f4ecf7  ;
@@ -138,11 +143,13 @@ li a {
 .langues_images_competences img{
     margin-top: 40px;
     margin-bottom: 40px;
-    margin-left: 100px;
+    margin-left: 67px;
     margin-right: 100px;
     border-radius: 50%;
     width: 80px;
     height: 80px;
+}
+.langues_images_competences img:hover {*
 }
 .titres_langues {
     
@@ -151,7 +158,7 @@ li a {
 .diplomes {
     width: 80%;
     padding: 30px;  
-    margin: 30px 150px;
+    margin: 30px 102px;
     text-align: justify;
     border: 2px solid darkslategray;
     background-color:  #f4ecf7 ;
@@ -161,7 +168,7 @@ li a {
 .experiences{
     width: 80%;
     padding: 30px;  
-    margin: 30px 150px;
+    margin: 30px 102px;
     text-align: justify;
     border: 2px solid darkslategray;
     background-color: #f4ecf7  ;  
@@ -170,7 +177,7 @@ li a {
 .centre_interet {
     width: 80%;
     padding: 30px;  
-    margin: 30px 150px;
+    margin: 30px 102px;
     text-align: justify;
     border: 2px solid darkslategray;
     background-color:  #f4ecf7 ;
